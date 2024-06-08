@@ -2,6 +2,8 @@ ex.no.9 solving 4-queen problem
 
 aim - to write a python program to solve 4 queen problem.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 algorithm,
 
 1. Initialize N as the size of the chessboard (N = 4).
@@ -11,6 +13,7 @@ algorithm,
 5. Define a function `solveNQ()` to initialize the chessboard, call `solveNQUtil()` to solve the problem, and print the solution.
 6. Call `solveNQ()` to solve the 4-Queens problem and print the solution.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROGRAM,
  
