@@ -1,6 +1,9 @@
 6.knowledge representation and inference predicate logic
 AIM:
 	To write a code to represent knowledge and perform inference using predicate logic in Python. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ALGORITHM
 1.Initialize an empty list called knowledge_base to store facts about relationships between individuals.
 
@@ -15,6 +18,8 @@ ALGORITHM
 6.Add initial facts to the knowledge base, such as parent-child relationships.
 
 7.Use the defined functions to query relationships and perform inference.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 program:
 knowledge_base = []
