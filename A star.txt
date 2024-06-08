@@ -2,6 +2,8 @@ EX.No. 1b Implement A* Algorithm
 
 AIM: To Implement A* Algorithm.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ALGORITHM
 
 1. The code is a class that is subclassed from the State class.
@@ -32,6 +34,7 @@ an element with a path that matches its own.
 22. After visiting all children nodes, if there are still no paths found then it returns back to the beginning state (the
 start point).
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROGRAM:
 
