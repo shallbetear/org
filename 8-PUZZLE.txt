@@ -2,6 +2,9 @@ EX.NO.8 IMPLEMENT HILL CLIMBING TO SOLVE 8-PUZZLE PROBLEM
 
 AIM - to write a python program to implement hill climbing to solve 8-puzzle problem
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Algorithm
 
 1. Initialize initial and goal states, utility functions, and current state.
@@ -16,6 +19,9 @@ Algorithm
    - If current state equals goal state, print "Goal state reached!".
    - Otherwise, print "Local minimum reached!".
 4. Execute algorithm by printing initial state and calling hill climbing with it.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 PROGRAM
 
