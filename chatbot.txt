@@ -2,6 +2,8 @@ Ex.no 10 DESIGNING A CHATBOT APPLICATION
 
 AIM - to write a python program to design a simple chatbot application
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ALGORITHM 
 
 1.Initialization: Define a dictionary of message triggers and responses, and functions for generating responses and handling main functionality.
@@ -11,6 +13,8 @@ ALGORITHM
 3.Main Functionality: Loop to prompt user input until "exit" is entered, then print a goodbye message and exit, or generate and print a response based on user input.
 
 4.Execution: Call the main function to start the chatbot.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PROGRAM,
 
