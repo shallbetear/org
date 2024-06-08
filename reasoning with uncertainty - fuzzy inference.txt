@@ -2,6 +2,8 @@ Ex.no 7 fuzzy inference
 
 Aim - to write a python code to implement fuzzy inference system .
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Algorithm :
 
 Step 1: Define the triangular membership function `trimf(x, params)` with parameters `a`, `b`, and `c`.
@@ -30,6 +32,8 @@ Step 6: Define input values for temperature and humidity (`input_temperature`, `
 Step 7: Apply fuzzy rules to determine the output fan speed (`output_fan_speed`) using the `fuzzy_rule` function.
 
 Step 8: Print the output fan speed.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Program:
 
