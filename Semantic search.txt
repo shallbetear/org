@@ -8,6 +8,9 @@ ALGORITHM :
 6.The related_content list is sorted by similarity in descending order using sort and reverse=True
 7.Finally, suggested_content extracts only the content names from the sorted list, providing recommendations based on user interests.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 PROGRAM:
 
 from sklearn.metrics.pairwise import cosine_similarity
