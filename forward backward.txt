@@ -1,0 +1,50 @@
+exp 11 content beyaond slybus
+forward and backward chaining
+
+
+class Rule:
+    def __init__(self, consequent, antecedents):
+        self.consequent = consequent
+        self.antecedents = antecedents
+
+def forward_chain(rules, facts):
+    new_facts = set()
+    while True:
+        old_count = len(facts)
+        for rule in rules:
+            if all(antecedent in facts for antecedent in rule.antecedents):
+                new_facts.add(rule.consequent)
+        facts |= new_facts
+        if len(facts) == old_count:
+            break
+    return facts
+
+def backward_chain(rules, goal, facts):
+    if goal in facts:
+        return True
+    for rule in rules:
+        if rule.consequent == goal and all(backward_chain(rules, antecedent, facts) for antecedent in rule.antecedents):
+            return True
+    return False
+
+if __name__ == "__main__":
+    rules = [
+        Rule("happy", ["sunny"]),
+        Rule("sunny", ["no rain"]),
+        Rule("no rain", ["no clouds"])
+    ]
+    
+    initial_facts = {"no clouds"}
+    goal = "happy"
+    inferred_facts = forward_chain(rules, initial_facts)
+    print("Facts inferred by forward chaining:", inferred_facts)
+
+    if backward_chain(rules, goal, initial_facts):
+        print("Goal '{}' is achievable!".format(goal))
+    else:
+        print("Goal '{}' is not achievable.".format(goal))
+'''
+output:
+Facts inferred by forward chaining: {'no clouds', 'sunny', 'happy', 'no rain'}
+Goal 'happy' is achievable!
+'''
